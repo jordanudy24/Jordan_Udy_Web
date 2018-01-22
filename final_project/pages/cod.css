@@ -1,0 +1,39 @@
+.header {
+    color: #000;
+    font-family: sans-serif
+}
+
+  body{
+            background-image: url(../images/cod3back.jpg);
+            background-repeat:no-repeat;
+            background-size:cover;
+        }
+
+
+.cod {
+    width: 650px;
+    border: black solid 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    margin: 50px;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+ol{
+    text-align: left;
+    font-family: sans-serif;
+    font-size:20px;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+    text-align: left;
+}
+

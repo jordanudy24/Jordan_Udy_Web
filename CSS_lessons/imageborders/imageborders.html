@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Image Borders</title>
+	
+	<style>
+	img { border: 2px solid #fff; }
+
+body
+{background-color: black;}
+	
+.album img {
+  border: 10px ridge #006600;
+  height: 250px;
+  width:250px;
+  margin: 75px;
+  padding: 3px;
+  background-color: yellow;
+}
+.imgborder {
+  border: 2px dotted #33ff00;
+}
+
+.toptwo img{
+	border-bottom-left-radius:48px;
+	border-bottom-right-radius:48px;
+	border: 10px inset;
+	border-style:inset;
+	border-color:red;
+	padding: 3px;
+	background-color:aqua;
+}
+.bottomtwo img{
+	border-top-left-radius:48px;
+	border-top-right-radius:48px;
+	border-style:inset;
+	border: 10px inset #66CD00;
+	padding: 3px;
+	background-color:orange;
+}
+.bottomtwo, .toptwo img{
+	margin: 3px;
+}
+	</style>
+	
+</head>
+<body>
+	
+	
+		<img src="images/widget1.jpg" alt="Widget the cat"/>
+		<img src="images/widget2.jpg" alt="Widget shows his tongue" class = "imgborder"/>
+
+
+		<br>
+		<br>
+		<br>
+	
+<div class="album">
+	<img src="images/tiger1.jpg" alt="tiger with flower"/>
+	<img src="images/tiger2.jpg" alt="tiger head"/>
+	<img src="images/tiger3.jpg" alt="tiger in tree "/>
+	</div>
+	<div class= "toptwo">
+		<img src="images/cheetah.jpg" alt="tiger with flower" height= 200px width= 350 class="toptwo"/>
+		<img src="images/jaguar.jpg" alt="tiger head" height= 200px width= 350>
+	</div>
+		<br>
+		<div class="bottomtwo">
+		<img src="images/lionmane.jpg" alt="tiger in tree" height= 200px width= 350/ class="bottomtwo">
+		<img src="images/panther.jpg" alt="tiger in tree" height= 200px width= 350/>
+	</div>
+
+	
+</body>
+</html>
