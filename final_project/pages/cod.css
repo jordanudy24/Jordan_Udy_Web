@@ -10,6 +10,14 @@
         }
 
 
+.splash{
+    background-image: url(../images/codsplash2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+
 .cod {
     width: 650px;
     border: black solid 5px;
