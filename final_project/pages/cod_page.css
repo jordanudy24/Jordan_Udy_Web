@@ -35,8 +35,11 @@ div {
     text-align: center;
 }
 
-h1,
-h2 {
+h1 {
+    color: #9900FF;
+}
+h2{
+    margin-left: 10px;
     color: #9900FF;
 }
 
@@ -84,7 +87,7 @@ th {
 }
 
 tr:nth-child(odd) {
-    background-color: #FFFF00;
+    background-color: #7FFF00;
     color: #000000;
 }
 
@@ -108,7 +111,7 @@ tr:hover {
     color: #fff;
 }
 
-iframe{
-
+.imagez{
+margin-left: 10px
  
 }
